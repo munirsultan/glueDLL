@@ -78,7 +78,6 @@ int main(int argc, char **argv)
 	} ITERATE_GL_THREADS_ENDS;
 
 	/*Let us remove one record at random */
-
 	glthread_remove(emp_list, &emp2->glnode);
 	printf("\nprinting again . . .\n");
 
@@ -89,7 +88,6 @@ int main(int argc, char **argv)
 
 
 	/* Free all Dynamicall allocations */
-
 	ITERATE_GL_THREADS_BEGIN(emp_list, emp_t, ptr)
 	{
 		glthread_remove(emp_list, &ptr->glnode);
