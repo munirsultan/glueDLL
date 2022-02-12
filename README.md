@@ -8,7 +8,10 @@ Includes:
 
 # Compile
 $ make clean
+
 $ make
 
-# Demostration; run the exe
+# Demo
+run the exe
+
 $ ./exe
